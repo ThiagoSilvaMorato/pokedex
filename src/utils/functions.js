@@ -13,5 +13,3 @@ export async function getPokemon(pokemon) {
   const result = await axios.get(pokemonsAPI);
   return result.data;
 }
-
-console.log(await getAllPokemon(2));
