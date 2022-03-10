@@ -5,7 +5,7 @@ import "./index.css";
 export function SearchInput() {
   return (
     <div className='container'>
-      <input></input>
+      <input />
       <button>Search</button>
     </div>
   );
