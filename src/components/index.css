@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: white;
+  width: fit-content;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.container input {
+  margin-right: 10px;
+  border-radius: 7px;
+  background-color: rgb(236, 146, 161);
+}
+
+.container button {
+  border-radius: 7px;
+  background-color: white;
+  border: none;
+}
+
+.container button:hover {
+  cursor: pointer;
+  background-color: rgb(236, 146, 161);
+  transition-duration: 0.5s;
+  transition-property: background-color;
+}
+
+.container input:focus {
+  background-color: rgb(231, 203, 203);
+}
