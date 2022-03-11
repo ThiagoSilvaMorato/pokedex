@@ -4,7 +4,7 @@ import "./index.css";
 //Modal para o search input
 export function SearchInput() {
   return (
-    <div className='container'>
+    <div className='container--SearchInput'>
       <input />
       <button>Search</button>
     </div>

@@ -1,8 +1,9 @@
 import Reach from "react";
-import { SearchInput } from "./components/SearchInput";
+import { Header } from "./components/Header";
+import "./index.css";
 
 function App() {
-  return <SearchInput />;
+  return <Header />;
 }
 
 export default App;

@@ -1,0 +1,8 @@
+.container--Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid;
+  padding: 49px 28px 0 28px;
+}
