@@ -1,4 +1,4 @@
-.container {
+.container--SearchInput {
   display: flex;
   flex-direction: row;
   padding: 10px;
@@ -8,25 +8,25 @@
   border-radius: 10px;
 }
 
-.container input {
+.container--SearchInput input {
   margin-right: 10px;
   border-radius: 7px;
   background-color: rgb(236, 146, 161);
 }
 
-.container button {
+.container--SearchInput button {
   border-radius: 7px;
   background-color: white;
   border: none;
 }
 
-.container button:hover {
+.container--SearchInput button:hover {
   cursor: pointer;
   background-color: rgb(236, 146, 161);
   transition-duration: 0.5s;
   transition-property: background-color;
 }
 
-.container input:focus {
+.container--SearchInput input:focus {
   background-color: rgb(231, 203, 203);
 }

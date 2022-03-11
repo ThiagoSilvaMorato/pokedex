@@ -1,0 +1,17 @@
+.container--Header > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid;
+}
+
+.container--Header strong {
+  margin-left: 28px;
+  margin-top: 50px;
+}
+
+.container--Header .container--SearchInput {
+  margin-right: 28px;
+  margin-top: 50px;
+}
