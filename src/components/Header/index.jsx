@@ -5,10 +5,8 @@ import "./index.css";
 export const Header = () => {
   return (
     <div className='container--Header'>
-      <div>
-        <strong>Pokedex</strong>
-        <SearchInput />
-      </div>
+      <strong>Pokedex</strong>
+      <SearchInput />
     </div>
   );
 };
