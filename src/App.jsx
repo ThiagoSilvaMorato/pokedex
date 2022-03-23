@@ -1,20 +1,9 @@
-import React from "react";
-
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-// import { Header } from "./components/Header/index";
-import { PokePhoto } from "./components/PokePhoto/index";
-
+import Reach from "react";
+import { Header } from "./components/Header";
 import "./index.css";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' exact element={<PokePhoto />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <Header />;
 }
 
 export default App;
