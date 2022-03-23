@@ -1,6 +1,6 @@
 import React from "react";
 import { SearchInput } from "../SearchInput";
-import "./index.css";
+import "./index.scss";
 
 export const Header = () => {
   return (
