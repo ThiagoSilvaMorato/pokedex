@@ -1,0 +1,48 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .poke-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px 0;
+    gap: 60px;
+    max-width: 1300px;
+    width: 100%;
+  }
+  .pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+
+    button {
+      border: none;
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+    }
+
+    strong {
+      cursor: default;
+    }
+  }
+
+  .pokemons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      margin-top: 15px;
+    }
+  }
+}
