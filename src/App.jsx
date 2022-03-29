@@ -6,15 +6,19 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import { PokePhoto } from "./components/PokePhoto/";
 // import { Footer } from "./components/Footer";
 // import { SquareBadge } from "./components/SquareBadge";
-import { Badge } from "./components/Badge";
+// import { Badge } from "./components/Badge";
+// import { Body } from "./components/Body/index";
+// import { Body } from "./components/Body";
 
-import "./index.css";
+import { Home } from "./pages/Home";
+
+import "./index.scss";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' exact element={<Badge />} />
+        <Route path='/' exact element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
